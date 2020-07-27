@@ -63,7 +63,7 @@ public class FileManager
         FileWriter writer = new FileWriter(path);
         for(String range : ranges)
         {
-            writer.write(range + "\r\n");
+            writer.write(range + ";");
         }
         writer.close();
         isCreated = true;

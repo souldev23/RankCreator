@@ -47,8 +47,7 @@ public class frmRankCreator extends javax.swing.JFrame
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Rank Creator");
-        setBackground(new java.awt.Color(153, 255, 255));
-        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
 
         btnSource.setFont(new java.awt.Font("Comic Sans MS", 1, 12)); // NOI18N
@@ -75,7 +74,7 @@ public class frmRankCreator extends javax.swing.JFrame
 
         txtResult.setEditable(false);
         txtResult.setColumns(20);
-        txtResult.setFont(new java.awt.Font("Consolas", 0, 12));
+        txtResult.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
         txtResult.setLineWrap(true);
         txtResult.setRows(5);
         jScrollPane1.setViewportView(txtResult);

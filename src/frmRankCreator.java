@@ -48,6 +48,8 @@ public class frmRankCreator extends javax.swing.JFrame
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Rank Creator");
 
+        btnSource.setFont(new java.awt.Font("Comic Sans MS", 1, 12)); // NOI18N
+        btnSource.setForeground(new java.awt.Color(0, 102, 102));
         btnSource.setText("Selecionar");
         btnSource.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -55,8 +57,12 @@ public class frmRankCreator extends javax.swing.JFrame
             }
         });
 
+        jLabel1.setFont(new java.awt.Font("Comic Sans MS", 1, 12)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 51, 153));
         jLabel1.setText("Seleciona el archivo");
 
+        btnCreate.setFont(new java.awt.Font("Comic Sans MS", 1, 12)); // NOI18N
+        btnCreate.setForeground(new java.awt.Color(0, 102, 102));
         btnCreate.setText("Crear intervalos");
         btnCreate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -65,6 +71,7 @@ public class frmRankCreator extends javax.swing.JFrame
         });
 
         txtResult.setColumns(20);
+        txtResult.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
         txtResult.setRows(5);
         jScrollPane1.setViewportView(txtResult);
 
@@ -98,7 +105,7 @@ public class frmRankCreator extends javax.swing.JFrame
                 .addComponent(btnCreate)
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(35, Short.MAX_VALUE))
+                .addContainerGap(31, Short.MAX_VALUE))
         );
 
         pack();

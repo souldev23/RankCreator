@@ -65,6 +65,7 @@ public class frmRankCreator extends javax.swing.JFrame
         });
 
         txtResult.setColumns(20);
+        txtResult.setLineWrap(true);
         txtResult.setRows(5);
         jScrollPane1.setViewportView(txtResult);
 

@@ -73,8 +73,10 @@ public class frmRankCreator extends javax.swing.JFrame
         });
 
         txtResult.setEditable(false);
+        txtResult.setBackground(new java.awt.Color(0, 0, 0));
         txtResult.setColumns(20);
         txtResult.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        txtResult.setForeground(new java.awt.Color(255, 255, 255));
         txtResult.setLineWrap(true);
         txtResult.setRows(5);
         jScrollPane1.setViewportView(txtResult);

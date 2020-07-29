@@ -130,7 +130,7 @@ public class frmRankCreator extends javax.swing.JFrame
         {
             int[] nums = fm.getNumbers();
             List<String> interval = rc.createIntervals(nums);
-            if(fm.saveResult(interval, directory + "\\Intervalos.txt"))
+            if(fm.saveResult(interval, directory + "\\Rangos.txt"))
             {
                 txtResult.setText("Se ha procesado el archivo, y se ha creado el archivo de resultado con el nombre: \r\n" 
                         + directory + "/Intervalos.txt");
